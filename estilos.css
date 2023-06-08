@@ -10,3 +10,11 @@ body{
     background: #33A;
     color: white;
 }
+.imagen {
+    border-radius: 70%;
+    border: 2px solid;
+    box-shadow: 8px 16px 32px 0px;
+    height: 250px;
+    width: 250px;
+    margin-top: 200px;
+}
