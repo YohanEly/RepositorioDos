@@ -18,3 +18,20 @@ body{
     width: 250px;
     margin-top: 200px;
 }
+.carrucel{
+    align-items: center;
+    display: flex;
+    margin:48px 0 64px;
+}
+.ventana{
+    overflow: hidden;
+    width: 1500px;
+}
+.contenedor{
+    left: 0;
+    position:relative;
+    width: 1500px;
+}
+.contenedor li{
+    display: inline-block;
+}
