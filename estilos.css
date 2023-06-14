@@ -1,31 +1,73 @@
-body{
-    color: aquamarine;
-    text-align: center;
-    font-family: "Arial";
-    font-size: 20px;
-
+/* css reset */
+html {
+    box-sizing: border-box;
+    font-size: 16px;
 }
+
+*,
+*:before,
+*:after {
+box-sizing: inherit;
+}
+  
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ol,
+ul {
+    margin: 0;
+    padding: 0;
+    font-weight: normal;
+}
+  
+ol,
+ul {
+    list-style: none;
+}
+  
+img {
+    max-width: 100%;
+    height: auto;
+}
+/*--- end of reset ----*/
+
+
+body,  section {
+    align-items: center;
+    background-color: var(--gris-medio);
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+
 #estilo1
 {
     background: #33A;
     color: white;
 }
 .imagen {
-    border-radius: 70%;
-    border: 2px solid;
-    box-shadow: 8px 16px 32px 0px;
-    height: 250px;
-    width: 250px;
+    border-radius: 50%;
+    border: 1px solid grey;
+    box-shadow: 8px 16px 32px 0px grey;
+    height: 350px;
+    width: 350px;
     margin-top: 200px;
 }
 .carrucel{
     align-items: center;
     display: flex;
-    margin:48px 0 64px;
+    margin: 48px 0 64px;
+    overflow: hidden;
 }
 .ventana{
-    overflow: hidden;
-    width: 1500px;
+    width: 815px;
+    padding: 8px;
 }
 .contenedor{
     left: 0;
