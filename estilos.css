@@ -77,3 +77,6 @@ body,  section {
 .contenedor li{
     display: inline-block;
 }
+.menu1 {
+    display: inline-block;
+}
