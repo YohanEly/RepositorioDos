@@ -31,18 +31,28 @@ ul {
 }
   
 img {
-    max-width: 100%;
-    height: auto;
+    width: 300px;
+    height: 300px;
+    padding: 10px;
+    border: 5px solid #388E3C;
+    object-fit: cover;
 }
 /*--- end of reset ----*/
 
 
 body,  section {
     align-items: center;
-    background-color: var(--gris-medio);
+    background-color: #C8E6C9;
     display: flex;
     flex-direction: column;
     width: 100%;
+
+}
+
+nav ul {
+    background-color:#CDDC39;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 
@@ -70,13 +80,17 @@ body,  section {
     padding: 8px;
 }
 .contenedor{
-    left: 0;
-    position:relative;
-    width: 1500px;
+    display: flex;
+    margin: 2px;
+    
 }
+
 .contenedor li{
     display: inline-block;
 }
 .menu1 {
     display: inline-block;
+}
+.contenedor li img1{
+    justify-content:flex-start;
 }
